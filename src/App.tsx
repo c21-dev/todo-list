@@ -37,8 +37,8 @@ function App() {
           title="Create new todo"
           onClose={() => setOpen(false)}
         >
-          <div>
-            asdf
+          <div style={{ color: "black" }}>
+            asd
             <p>Popup content goes here. Put forms, buttons, whatever.</p>
             <button onClick={() => setOpen(false)}>Close</button>
           </div>

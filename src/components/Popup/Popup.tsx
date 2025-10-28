@@ -70,7 +70,9 @@ const Popup: React.FC<PopupProps> = ({
             borderBottom: "1px solid #eee",
           }}
         >
-          <div style={{ fontSize: 16, fontWeight: 600 }}>{title}</div>
+          <div style={{ fontSize: 16, fontWeight: 600, color: "black" }}>
+            {title}
+          </div>
           <button
             onClick={onClose}
             aria-label="Close"
